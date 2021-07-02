@@ -26,7 +26,7 @@ const Header = ({currentUser}) => (
     </div>
 )
 
-const mapStateToProps = state => (console.log(state),{
+const mapStateToProps = state => ({
     
     currentUser : state.user.currentUser
 })
